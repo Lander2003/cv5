@@ -1,0 +1,262 @@
+/* Global */
+body{
+  font-family: 'Century Gothic';
+  overflow-x: hidden;
+}
+
+/* Utilities */
+.fade-cs{
+  color: #7b7b7b;
+  font-size: 1.1rem
+}
+
+.container-cs{
+  width: 58%;
+  padding: 0 50px;
+}
+
+.btn-cs{
+  border: none;
+  padding: 10px 80px;
+  background-color: #336ead;
+  cursor: pointer;
+  color: white;
+  transition: background-color .1s ease-in;
+}
+
+.btn-cs:hover{
+  background-color: #4ba2ff;
+}
+
+.founded{
+  color: black;
+  font-size: 1.2rem
+}
+
+.fade-cs-2{
+  color: #7b7b7b;
+  font-size: 1rem;
+}
+
+.logo{
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+  width: 45%;
+}
+
+
+.container-2{
+  width:70%;
+  margin: 0 auto;
+}
+
+.col-lg-12{
+  padding: 0;
+}
+
+hr{
+  margin-top: 1rem;
+ margin-bottom: 1rem;
+ border: 0;
+ border-top: 1px solid #0000005c;
+}
+
+/* Navigation bar */
+nav{
+  padding: 15px 30px 10px;
+  background-color: #dadada;
+}
+
+nav img{
+  float: left;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+nav h3{
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  padding-top: 3px;
+}
+
+.nav-content{
+  float: right;
+  padding-top: 8px;
+}
+
+.nav-content a{
+  padding: 0 15px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+/* Showcase */
+
+#showcase{
+height: 970px;
+}
+
+#showcase h1{
+  font-size: 4rem;
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Goal section */
+
+#goal{
+  margin-bottom: 100px;
+}
+
+#goal h1{
+  font-size: 3rem;
+}
+
+#goal p{
+text-align: justify;
+line-height: 1.5;
+margin-bottom: 80px;
+}
+
+/* Projects section */
+
+#projects{
+  background-color: #fbfbfb;
+  padding: 60px;
+}
+
+#projects h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#projects .container-2 h1{
+  font-size: 1.4rem;
+text-align: left;
+transition: color .1s ease-out;
+}
+
+#projects .container-2 h1:hover{
+  color: #4387d0;
+}
+
+#projects .container-2 .row p{
+  text-align: justify;
+}
+
+#projects .container-2 .row div{
+ padding: 30px;
+}
+
+.last-project{
+  padding: 0 200px;
+}
+
+/* Team */
+
+#team{
+  padding: 50px 30px;
+    text-align: center;
+}
+
+#team img{
+  width: 200px;
+  border-radius: 100%;
+  transition: width .1s ease-in, opacity .1s ease-in;
+  margin-bottom: 20px;
+}
+
+#team .heading{
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#team .container-team h1{
+  font-size: 2rem;
+}
+
+
+
+#team img:hover{
+ width: 220px;
+ opacity: 0.8;
+}
+
+/* Newsletter */
+
+#newsletter{
+  background-color: #eaeaea;
+  padding: 30px 50px;
+
+}
+
+.newsletter-content{
+}
+
+.newsletter-content form{
+  float: right;
+}
+
+.newsletter-content input{
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.newsletter-content h1{
+   display: inline-block;
+}
+
+.newsletter-content button{
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1300px){
+   .logo, .background{
+     display: none;
+   }
+
+   .container-cs {
+     width: 80%;
+     margin: 0 auto;
+   }
+
+  #showcase h1{
+    text-align: center;
+    padding-top: 50px;
+  }
+  #showcase{
+    height: 700px;
+  }
+
+  .newsletter-content h1{
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .newsletter-content form{
+    float: none;
+    text-align: center;
+  }
+
+  .newsletter-content input{
+    display: block;
+  }
+
+  .newsletter-content button{
+
+  }
+}
